@@ -424,3 +424,5 @@ class AmazonDatasetLoader:
                 f"interactions={self.num_interactions})"
             )
         return f"AmazonDatasetLoader(data_dir='{self.data_dir}', loaded=False)"
+
+# implement multi-format file loading (csv, xlsx, json)
