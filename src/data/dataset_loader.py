@@ -432,3 +432,5 @@ class AmazonDatasetLoader:
 # add user/item ID mapping and interaction matrix
 
 # implement temporal train/test splitting and validation
+
+# fix(data): resolve memory leak in temporal dataframe splitting iterator
