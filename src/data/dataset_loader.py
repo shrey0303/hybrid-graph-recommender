@@ -428,3 +428,5 @@ class AmazonDatasetLoader:
 # implement multi-format file loading (csv, xlsx, json)
 
 # fix(data): handle NaN values in interaction timestamps during pandas parsing
+
+# add user/item ID mapping and interaction matrix
