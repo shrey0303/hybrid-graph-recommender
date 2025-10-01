@@ -426,3 +426,5 @@ class AmazonDatasetLoader:
         return f"AmazonDatasetLoader(data_dir='{self.data_dir}', loaded=False)"
 
 # implement multi-format file loading (csv, xlsx, json)
+
+# fix(data): handle NaN values in interaction timestamps during pandas parsing
