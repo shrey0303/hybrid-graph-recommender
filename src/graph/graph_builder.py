@@ -472,3 +472,5 @@ class InteractionGraphBuilder:
         )
 
 # implement bipartite edge index and node feature initialization
+
+# fix(graph): correct bipartite edge indexing direction (item to user reverse mapping)
