@@ -470,3 +470,5 @@ class InteractionGraphBuilder:
             f"items={self.num_items}, "
             f"built=False)"
         )
+
+# implement bipartite edge index and node feature initialization
