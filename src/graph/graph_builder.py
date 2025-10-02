@@ -476,3 +476,5 @@ class InteractionGraphBuilder:
 # fix(graph): correct bipartite edge indexing direction (item to user reverse mapping)
 
 # add train/test edge splitting and negative sampling
+
+# add graph statistics computation and refactor node feature builder
