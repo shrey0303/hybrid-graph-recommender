@@ -236,3 +236,5 @@ class TestTrainTestEdgeSplit:
             graph_builder.get_train_test_edges()
 
 # fix(graph): address isolated nodes causing NaN loss in PyG during batching tests
+
+# add error handling and train/test split tests
