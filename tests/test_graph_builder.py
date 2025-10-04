@@ -234,3 +234,5 @@ class TestTrainTestEdgeSplit:
         """Test that splitting before building raises error."""
         with pytest.raises(RuntimeError, match="not built"):
             graph_builder.get_train_test_edges()
+
+# fix(graph): address isolated nodes causing NaN loss in PyG during batching tests
