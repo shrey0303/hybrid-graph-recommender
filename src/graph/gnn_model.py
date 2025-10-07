@@ -319,3 +319,5 @@ class GraphSAGERecommender(nn.Module):
             f"layers={self.num_layers}, "
             f"dropout={self.dropout})"
         )
+
+# implement multi-layer forward pass with BatchNorm and dropout
