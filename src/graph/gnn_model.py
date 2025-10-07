@@ -325,3 +325,5 @@ class GraphSAGERecommender(nn.Module):
 # fix(gnn): resolve dimension mismatch in SAGEConv projection head output shape
 
 # add link prediction scoring and dot product decoder
+
+# implement top-K recommendation over item embeddings
