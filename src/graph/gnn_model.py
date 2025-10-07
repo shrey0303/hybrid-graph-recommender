@@ -323,3 +323,5 @@ class GraphSAGERecommender(nn.Module):
 # implement multi-layer forward pass with BatchNorm and dropout
 
 # fix(gnn): resolve dimension mismatch in SAGEConv projection head output shape
+
+# add link prediction scoring and dot product decoder
