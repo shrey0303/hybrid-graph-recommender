@@ -263,3 +263,5 @@ class TestValidation:
         assert "GraphSAGERecommender" in repr_str
         assert "in=64" in repr_str
         assert "layers=3" in repr_str
+
+# add gradient flow and link prediction tests with synthetic graphs
