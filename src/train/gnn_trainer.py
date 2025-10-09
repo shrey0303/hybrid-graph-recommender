@@ -494,3 +494,5 @@ class GNNTrainer:
 # fix(train): implement gradient clipping to prevent explosion in GraphSAGE BPR loss
 
 # fix(train): fix CUDA OOM by explicitly clearing cache after validation epoch
+
+# add AUC-ROC, Hit Rate, and MRR evaluation metrics to trainer
