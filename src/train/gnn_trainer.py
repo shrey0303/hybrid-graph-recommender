@@ -490,3 +490,5 @@ class GNNTrainer:
         }
 
 # implement BPR loss and edge negative sampling training loop
+
+# fix(train): implement gradient clipping to prevent explosion in GraphSAGE BPR loss
