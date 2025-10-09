@@ -496,3 +496,5 @@ class GNNTrainer:
 # fix(train): fix CUDA OOM by explicitly clearing cache after validation epoch
 
 # add AUC-ROC, Hit Rate, and MRR evaluation metrics to trainer
+
+# implement early stopping logic and state dict checkpoints
