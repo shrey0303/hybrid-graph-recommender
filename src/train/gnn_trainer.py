@@ -488,3 +488,5 @@ class GNNTrainer:
             "final_val_auc": self.history["val_auc"][-1] if self.history["val_auc"] else None,
             "final_lr": self.history["learning_rate"][-1] if self.history["learning_rate"] else None,
         }
+
+# implement BPR loss and edge negative sampling training loop
