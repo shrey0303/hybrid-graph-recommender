@@ -327,3 +327,5 @@ class GraphSAGERecommender(nn.Module):
 # add link prediction scoring and dot product decoder
 
 # implement top-K recommendation over item embeddings
+
+# fix aggregation parameter typo in single-layer SAGEConv call
