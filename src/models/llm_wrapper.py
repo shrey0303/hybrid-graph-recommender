@@ -299,3 +299,5 @@ class LLMEmbeddingExtractor(nn.Module):
 
 # Import F for the random embedding normalization
 import torch.nn.functional as F
+
+# implement model loading with bitsandbytes 8-bit quantization support
