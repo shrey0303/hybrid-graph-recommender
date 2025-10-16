@@ -279,3 +279,5 @@ class HybridGNN_LLM(nn.Module):
 # fix(hybrid): fix vanishing gradients in GatedFusionLayer by applying Xavier initialization
 
 # add HybridGNN_LLM orchestrator model with configurable gate priors
+
+# implement MLP projection heads for unified representation space
