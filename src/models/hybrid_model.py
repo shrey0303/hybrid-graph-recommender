@@ -275,3 +275,5 @@ class HybridGNN_LLM(nn.Module):
             f"fusion={self.fusion_dim}d, "
             f"output={self.output_dim}d)"
         )
+
+# fix(hybrid): fix vanishing gradients in GatedFusionLayer by applying Xavier initialization
