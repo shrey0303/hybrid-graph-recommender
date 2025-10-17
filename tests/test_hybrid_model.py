@@ -175,3 +175,5 @@ class TestModelConfig:
         assert "HybridGNN_LLM" in repr_str
         assert "gnn=128d" in repr_str
         assert "llm=768d" in repr_str
+
+# add model determinism checks and attention weight analysis tests
