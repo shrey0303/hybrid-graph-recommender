@@ -518,3 +518,5 @@ class PreferenceDataGenerator:
 # fix(dpo): prevent sampling user true positive items as hard negatives
 
 # incorporate embedding distance for hard negative mining
+
+# add HuggingFace Dataset formatted exports with prompt/chosen/rejected keys
