@@ -512,3 +512,5 @@ class PreferenceDataGenerator:
                 f"pairs={len(self.preference_pairs)})"
             )
         return f"PreferenceDataGenerator(data_dir='{self.data_dir}', loaded=False)"
+
+# implement popularity-based and uniform random negative sampling
