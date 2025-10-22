@@ -514,3 +514,5 @@ class PreferenceDataGenerator:
         return f"PreferenceDataGenerator(data_dir='{self.data_dir}', loaded=False)"
 
 # implement popularity-based and uniform random negative sampling
+
+# fix(dpo): prevent sampling user true positive items as hard negatives
