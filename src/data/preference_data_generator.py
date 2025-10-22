@@ -516,3 +516,5 @@ class PreferenceDataGenerator:
 # implement popularity-based and uniform random negative sampling
 
 # fix(dpo): prevent sampling user true positive items as hard negatives
+
+# incorporate embedding distance for hard negative mining
