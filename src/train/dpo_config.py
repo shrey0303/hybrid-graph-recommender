@@ -207,3 +207,5 @@ class DPOTrainingConfig:
             f"lora_rank={self.lora.rank}, "
             f"eff_batch={self.effective_batch_size})"
         )
+
+# add DPOTrainingConfig orchestrator with beta/margin hyperparameters
