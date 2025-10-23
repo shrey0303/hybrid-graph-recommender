@@ -209,3 +209,5 @@ class DPOTrainingConfig:
         )
 
 # add DPOTrainingConfig orchestrator with beta/margin hyperparameters
+
+# implement config pydantic validation and deep JSON serialization
