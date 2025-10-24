@@ -428,3 +428,5 @@ class RecommendationDPOTrainer:
             f"beta={self.config.beta}, "
             f"status={status})"
         )
+
+# implement PEFT model wrapper and LoRA adapter integration
