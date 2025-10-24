@@ -430,3 +430,5 @@ class RecommendationDPOTrainer:
         )
 
 # implement PEFT model wrapper and LoRA adapter integration
+
+# fix(dpo): correct LoRA target modules pointing to wrong attention layers in LLaMA
