@@ -434,3 +434,5 @@ class RecommendationDPOTrainer:
 # fix(dpo): correct LoRA target modules pointing to wrong attention layers in LLaMA
 
 # wrap TRL DPOTrainer with custom recommendation data collator
+
+# add custom reward computation hooks for implicit feedback logging
