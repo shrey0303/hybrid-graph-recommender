@@ -340,3 +340,5 @@ class RecommendationMetrics:
 # implement NDCG@K and Precision@K arrays computation
 
 # fix(eval): fix division by zero in NDCG calculation for users with no relevant test items
+
+# add Recall@K, Hit Rate@K, Mean Average Precision (MAP), and MRR
