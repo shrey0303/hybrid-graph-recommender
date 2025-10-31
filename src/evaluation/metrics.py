@@ -338,3 +338,5 @@ class RecommendationMetrics:
         }
 
 # implement NDCG@K and Precision@K arrays computation
+
+# fix(eval): fix division by zero in NDCG calculation for users with no relevant test items
