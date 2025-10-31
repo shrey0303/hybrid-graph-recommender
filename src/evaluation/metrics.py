@@ -342,3 +342,5 @@ class RecommendationMetrics:
 # fix(eval): fix division by zero in NDCG calculation for users with no relevant test items
 
 # add Recall@K, Hit Rate@K, Mean Average Precision (MAP), and MRR
+
+# add DPO implicitly logged reward accuracy and margin calculators
