@@ -218,3 +218,5 @@ class RewardAnalyzer:
             f"snapshots={len(self.history)}, "
             f"samples={len(self._all_chosen)})"
         )
+
+# implement temporal convergence analysis and win rate binning
