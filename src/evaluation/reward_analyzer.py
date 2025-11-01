@@ -220,3 +220,5 @@ class RewardAnalyzer:
         )
 
 # implement temporal convergence analysis and win rate binning
+
+# add markdown formatted summary table generation for CI/CD
