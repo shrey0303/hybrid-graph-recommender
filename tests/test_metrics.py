@@ -253,3 +253,5 @@ class TestRewardAnalyzer:
         assert "RewardAnalyzer" in repr(analyzer)
 
 # fix(eval): skip Hit Rate test calculation assertion if provided ground truth set is entirely empty
+
+# add RewardAnalyzer initialization and fake-log parsing tests
