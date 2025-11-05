@@ -251,3 +251,5 @@ class TestRewardAnalyzer:
         """Test string representation."""
         analyzer = RewardAnalyzer()
         assert "RewardAnalyzer" in repr(analyzer)
+
+# fix(eval): skip Hit Rate test calculation assertion if provided ground truth set is entirely empty
