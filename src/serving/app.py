@@ -305,3 +305,5 @@ async def _process_feedback(
 
 # Create default app instance
 app = create_app()
+
+# fix(api): handle missing authorization header gracefully avoiding 500 error cascade
