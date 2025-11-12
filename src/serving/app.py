@@ -307,3 +307,5 @@ async def _process_feedback(
 app = create_app()
 
 # fix(api): handle missing authorization header gracefully avoiding 500 error cascade
+
+# implement liveness and readiness probe /health endpoints for Kubernetes
