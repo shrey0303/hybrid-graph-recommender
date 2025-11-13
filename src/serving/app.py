@@ -311,3 +311,5 @@ app = create_app()
 # implement liveness and readiness probe /health endpoints for Kubernetes
 
 # implement /recommend synchronous single-user endpoint with top-K querying
+
+# fix(api): resolve async thread blocking by moving model inference to run_in_threadpool
