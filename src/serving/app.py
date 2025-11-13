@@ -313,3 +313,5 @@ app = create_app()
 # implement /recommend synchronous single-user endpoint with top-K querying
 
 # fix(api): resolve async thread blocking by moving model inference to run_in_threadpool
+
+# add /recommend/batch endpoint mapping array requests to batched tensor inference
