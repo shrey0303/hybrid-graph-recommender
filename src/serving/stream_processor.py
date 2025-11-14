@@ -335,3 +335,5 @@ class KafkaStreamConfig:
 # implement per-user buffering map with TTL eviction strategy
 
 # add Kafka Consumer and Producer integration classes for confluent_kafka
+
+# fix(stream): handle Kafka consumer rebalance exception during active event buffer flush
