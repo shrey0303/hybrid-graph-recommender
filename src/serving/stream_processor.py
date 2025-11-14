@@ -331,3 +331,5 @@ class KafkaStreamConfig:
             f"input='{self.input_topic}', "
             f"output='{self.output_topic}')"
         )
+
+# implement per-user buffering map with TTL eviction strategy
