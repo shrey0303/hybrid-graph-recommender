@@ -235,3 +235,5 @@ class ModelRegistry:
         )
 
 # implement singleton registry with active model switching and hot-reloading
+
+# add A/B testing user bucket router based on hash modulo logic
