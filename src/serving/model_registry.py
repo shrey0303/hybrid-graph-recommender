@@ -233,3 +233,5 @@ class ModelRegistry:
             f"versions={len(self.versions)}, "
             f"active='{self.active_version_id}')"
         )
+
+# implement singleton registry with active model switching and hot-reloading
