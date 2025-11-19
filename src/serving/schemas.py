@@ -88,3 +88,5 @@ class HealthResponse(BaseModel):
     status: str = Field(description="Service health status")
     uptime_seconds: float
     version: str
+
+# add nested feedback schemas for explicit user upvote/downvote signals
