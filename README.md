@@ -338,3 +338,5 @@ curl -X POST http://localhost:8000/feedback \
 ## 📄 License
 
 MIT
+
+<!-- add Mermaid architecture diagram for hybrid pipeline representation -->
