@@ -340,3 +340,5 @@ curl -X POST http://localhost:8000/feedback \
 MIT
 
 <!-- add Mermaid architecture diagram for hybrid pipeline representation -->
+
+<!-- fix(docs): correct API usage example endpoint from /get_recommendation to /recommend -->
