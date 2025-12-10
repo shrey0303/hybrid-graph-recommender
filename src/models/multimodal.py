@@ -409,3 +409,5 @@ class MultimodalFusionLayer(nn.Module):
             f"gnn={self.gnn_dim}, llm={self.llm_dim}, "
             f"vision={self.vision_dim}, out={self.output_dim})"
         )
+
+# implement lazy loaded HuggingFace CLIP image encoding pass
