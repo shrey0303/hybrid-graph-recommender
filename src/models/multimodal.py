@@ -413,3 +413,5 @@ class MultimodalFusionLayer(nn.Module):
 # implement lazy loaded HuggingFace CLIP image encoding pass
 
 # fix(vision): normalize CLIP image embeddings to unit variance to prevent attention overflow
+
+# implement text embeddings extraction for cross-modal similarity matching
