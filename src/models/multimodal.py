@@ -417,3 +417,5 @@ class MultimodalFusionLayer(nn.Module):
 # implement text embeddings extraction for cross-modal similarity matching
 
 # create MultimodalFusionLayer orchestrator combining text, vision, and graph embeddings
+
+# add interpretability weights extraction property for explanation API
