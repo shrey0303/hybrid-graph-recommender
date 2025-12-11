@@ -415,3 +415,5 @@ class MultimodalFusionLayer(nn.Module):
 # fix(vision): normalize CLIP image embeddings to unit variance to prevent attention overflow
 
 # implement text embeddings extraction for cross-modal similarity matching
+
+# create MultimodalFusionLayer orchestrator combining text, vision, and graph embeddings
