@@ -148,3 +148,5 @@ class TestMultimodalFusion:
         """Test string representation."""
         assert "MultimodalFusionLayer" in repr(fusion_layer)
         assert "vision=512" in repr(fusion_layer)
+
+# add synthetic modality dropping assertions for robust fusion fallback
