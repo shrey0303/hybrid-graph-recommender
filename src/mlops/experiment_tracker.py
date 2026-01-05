@@ -325,3 +325,5 @@ class ExperimentTracker:
             f"runs={len(self.runs)}, "
             f"active={'yes' if self.active_run else 'no'})"
         )
+
+# implement hyperparameter dictionary logging and best-run sorting hooks
