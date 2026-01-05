@@ -327,3 +327,5 @@ class ExperimentTracker:
         )
 
 # implement hyperparameter dictionary logging and best-run sorting hooks
+
+# implement thread-safe disk persistence for run history dictionaries
