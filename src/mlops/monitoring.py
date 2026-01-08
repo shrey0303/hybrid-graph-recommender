@@ -269,3 +269,5 @@ class AlertManager:
             f"rules={len(self.rules)}, "
             f"alerts_fired={len(self.alert_history)})"
         )
+
+# add prometheus_client integration for exposition metrics translation
