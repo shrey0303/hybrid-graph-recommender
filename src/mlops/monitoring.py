@@ -273,3 +273,5 @@ class AlertManager:
 # add prometheus_client integration for exposition metrics translation
 
 # build threshold-based AlertManager with slack webhook capability
+
+# fix(monitoring): reduce AlertManager false positives by exponentially backing off cooldown timer
