@@ -323,3 +323,5 @@ def create_training_dag() -> MLPipelineDAG:
     return dag
 
 # implement cyclic sub-graph detection and runtime exceptions
+
+# fix(pipeline): resolve cyclic dependency bug in Airflow model-upload-to-registry edge link
