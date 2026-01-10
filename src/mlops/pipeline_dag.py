@@ -325,3 +325,5 @@ def create_training_dag() -> MLPipelineDAG:
 # implement cyclic sub-graph detection and runtime exceptions
 
 # fix(pipeline): resolve cyclic dependency bug in Airflow model-upload-to-registry edge link
+
+# finalize hardcoded full DPO pipeline data flow DAG definition
