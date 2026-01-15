@@ -4,3 +4,5 @@ from src.models.hybrid_model import HybridGNN_LLM
 from src.models.llm_wrapper import LLMEmbeddingExtractor
 
 __all__ = ["HybridGNN_LLM", "LLMEmbeddingExtractor"]
+
+# expose MultimodalFusionLayer explicitly in base models import
