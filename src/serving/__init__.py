@@ -19,3 +19,5 @@ __all__ = [
     "FeedbackResponse",
     "HealthResponse",
 ]
+
+# update package exports integrating all nested pydantic schemas
