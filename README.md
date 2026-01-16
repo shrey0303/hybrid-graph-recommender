@@ -344,3 +344,5 @@ MIT
 <!-- fix(docs): correct API usage example endpoint from /get_recommendation to /recommend -->
 
 <!-- write complete installation and venv environment setup guidelines -->
+
+<!-- add Docker Compose quickstart section for Prometheus + Kafka -->
