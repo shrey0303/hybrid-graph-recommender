@@ -342,3 +342,5 @@ MIT
 <!-- add Mermaid architecture diagram for hybrid pipeline representation -->
 
 <!-- fix(docs): correct API usage example endpoint from /get_recommendation to /recommend -->
+
+<!-- write complete installation and venv environment setup guidelines -->
