@@ -315,3 +315,5 @@ app = create_app()
 # fix(api): resolve async thread blocking by moving model inference to run_in_threadpool
 
 # add /recommend/batch endpoint mapping array requests to batched tensor inference
+
+# fix(api): correct wildcard CORS origins for production deployment scope narrowing
