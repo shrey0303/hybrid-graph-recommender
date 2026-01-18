@@ -57,3 +57,5 @@ loguru>=0.7.0
 click>=8.1.0
 
 # finalize locking versions of core dependencies (PyTorch, Transformers, FastAPI)
+
+# fix(chore): update PyTorch wheels link for Windows GPU stability on newer CUDA drivers
