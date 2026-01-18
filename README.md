@@ -346,3 +346,5 @@ MIT
 <!-- write complete installation and venv environment setup guidelines -->
 
 <!-- add Docker Compose quickstart section for Prometheus + Kafka -->
+
+<!-- append MIT License boilerplate and author credits section -->
