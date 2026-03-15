@@ -283,25 +283,6 @@ curl -X POST http://localhost:8000/feedback \
     -d '{"user_id": "u1", "item_id": "i1", "rating": 4.5}'
 ```
 
----
-
-## 🧪 Testing
-
-| Module | Tests | Coverage |
-|--------|-------|----------|
-| Graph Builder | 18 | Graph construction, bidirectional edges, splitting |
-| GNN Model | 16 | Forward pass, gradients, link prediction, top-K |
-| Hybrid Fusion | 18 | Gate values, gradient flow, determinism |
-| Preference Data | 18 | Pair generation, strategies, splitting, accuracy |
-| DPO Config | 12 | Validation, serialization, LoRA config |
-| Metrics | 28 | NDCG, Precision, Recall, MRR, MAP, rewards |
-| API | 20 | All endpoints, schemas, middleware headers |
-| Streaming | 18 | Event processing, buffering, Kafka config, registry |
-| Multimodal | 11 | CLIP encoder, fusion layer, attention weights |
-| MLOps | 36 | Tracker lifecycle, monitoring, DAG validation |
-| **Total** | **195** | **All passing** |
-
----
 
 ## ⚠️ Limitations
 
